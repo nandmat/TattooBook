@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap');
+
+*{
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+body {
+    background-image: url(./img/background.jpg);
+    font-size: 18px;
+
+}
+
+header {
+
+   margin: auto;
+   width: 80%;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+header > h1 {
+    font-size: 250%;
+    font-family: 'Miltonian Tattoo', cursive;
+}
+
+header > nav > ul > li {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+a:link, a:visited {
+	text-decoration: none
+	}
+a:hover {
+	text-decoration: none;
+	color: rgb(9, 255, 0)
+	}
+a:active {
+	text-decoration: none
+}
+
+
+
+section {
+    width: 80%;
+    margin: auto;
+    padding: auto;
+    margin-bottom: 3rem;
+}
+
+.melhor-tatuador {
+text-align: center;
+padding: 1%;
+border-radius: 7%;
+font-size: 15px;
+background-color: rgba(66, 66, 66, 0.5);
+}
+
+.melhor-tatuador > p {
+    text-align: justify;
+}
+
+.perfil {
+width: 250px;
+height: 250px;
+border-radius: 50%;
+
+position: relative;top: 0;
+}
+
+.perfil:hover {
+    top: -4px;box-shadow: 0 4px 4px #999;
+    transition: all .2s ease-in-out;
+}
+
+
+.historia-tatuagem {
+    text-align: center;
+    padding: 1%;
+    border-radius: 7%;
+    font-size: 15px;
+    background-color: rgba(66, 66, 66, 0.5);
+}
+    
+.historia-tatuagem > p {
+        text-align: justify;
+}
+
+.list {
+    text-decoration: none;
+    list-style-type: square;
+    text-align: left;
+}
+
+.cuidados-tatuagem {
+    text-align: center;
+    padding: 1%;
+    border-radius: 7%;
+    font-size: 15px;
+    background-color: rgba(66, 66, 66, 0.5);
+}
+    
+.cuidados-tatuagem > p {
+        text-align: justify;
+}
+
+footer {
+    justify-content: space-between;
+    display: flex;
+}
+
+.imgfooter {
+    width: 150px;
+    height: 150px;
+    margin: 19px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    opacity: 1.0;
+
+}
